@@ -1,5 +1,3 @@
-package patika;
-
 import java.util.Scanner;
 
 public class ebob_ekok {
@@ -13,7 +11,7 @@ public class ebob_ekok {
         
         System.out.print("2.Sayiyi Giriniz :");
         int number2 = input.nextInt();
-        
+        //sayilardan hangisi buyukse ona gore ebobo bulundu
         if(number1<number2) {
         	
         	int i=1;
