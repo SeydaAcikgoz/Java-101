@@ -1,5 +1,3 @@
-package patika;
-
 import java.util.Scanner;
 
 public class mukemmel_sayi {
