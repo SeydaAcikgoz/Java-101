@@ -1,11 +1,9 @@
-package patika;
-
 public class asal_sayilar {
 
 	public static void main(String[] args) {
-
-		int sayac=0;
 		//1-100 arası asal sayılar
+		int sayac=0;
+		
 		for(int i=1;i<=100;i++) {
 			sayac=0;
 			for(int j = 2; j < i; j++)
@@ -14,7 +12,7 @@ public class asal_sayilar {
 	                sayac++;
 	            }
 	        }
-	        if(sayac == 0 && i!=1) {//1 asal sayı olmadıgı icin cikarttik
+	        if(sayac == 0 && i!=1) {	//1 asal sayı olmadıgı icin cikarttik
 	            System.out.print(i+"\t");
 	        }
 	        
