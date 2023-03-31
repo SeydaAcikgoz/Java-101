@@ -1,5 +1,3 @@
-package patika;
-
 public class fibonacci_serisi {
 	public static void main(String args[]) {
 		int sayi = 11;
