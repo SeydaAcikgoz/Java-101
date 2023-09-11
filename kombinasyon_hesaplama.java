@@ -24,5 +24,4 @@ public class kombinasyon_hesaplama {
 		}
 		return faktoriyel;
 	}
-
 }
