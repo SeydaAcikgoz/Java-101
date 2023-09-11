@@ -53,7 +53,6 @@ public class hesap_makinesi2 {
             }
             result *= number;
         }
-
         System.out.println("Sonuc : " + result);
     }
 
@@ -76,7 +75,6 @@ public class hesap_makinesi2 {
             }
             result /= number;
         }
-
         System.out.println("Sonuc : " + result);
     }
 
@@ -91,7 +89,6 @@ public class hesap_makinesi2 {
         for (int i = 1; i <= exponent; i++) {
             result *= base;
         }
-
         System.out.println("Sonuc : " + result);
     }
 
@@ -104,7 +101,6 @@ public class hesap_makinesi2 {
         for (int i = 1; i <= n; i++) {
             result *= i;
         }
-
         System.out.println("Sonuc : " + result);
     }
 
@@ -121,7 +117,6 @@ public class hesap_makinesi2 {
                 + "7- Mod Alma\n"
                 + "8- Dikdortgen Alan ve Cevre Hesabi\n"
                 + "0- Cikis Yap";
-
         do {
             System.out.println(menu);
             System.out.print("Lutfen bir islem seciniz :");
@@ -151,7 +146,5 @@ public class hesap_makinesi2 {
                     System.out.println("Yanlis bir deger girdiniz, tekrar deneyiniz.");
             }
         } while (select != 0);
-
-
     }
 }
