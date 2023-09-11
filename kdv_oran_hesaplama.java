@@ -3,7 +3,6 @@ package patika;
 import java.util.Scanner;
 
 public class kdv_tutari_hesaplama {
-
 	public static void main(String[] args) {
 		
 		double tutar,kdvOran=0.18,kdvTutar,kdvliTutar;
@@ -19,8 +18,5 @@ public class kdv_tutari_hesaplama {
 		System.out.println("Kdv orani tutar:"+kdvOran);
 		System.out.println("Kdv tutari:"+kdvTutar);
 		System.out.println("Kdv'li tutar:"+kdvliTutar);
-
-		
 	}
-
 }
